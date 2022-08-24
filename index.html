@@ -1,33 +1,359 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version="2" class="sg-campaigns" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <title>Linq is Temporarily Down</title>
-  <style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!--<![endif]-->
+  <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+  <!--[if (gte mso 9)|(IE)]>
+  <style type="text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+  <style type="text/css">
+    body,
+    p,
+    div {
+      font-family: arial, helvetica, sans-serif;
+      font-size: 16px;
+    }
+
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: rgb(18,19,20);
-      color: white;
+      color: #000f31;
     }
-    a {
-      color: lightskyblue;
+
+    body a {
+      color: #006dff;
+      text-decoration: none;
     }
-    div.content {
-      padding: 20px;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    table.wrapper {
+      width: 100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    img.max-width {
+      max-width: 100% !important;
+    }
+
+    .column.of-2 {
+      width: 50%;
+    }
+
+    .column.of-3 {
+      width: 33.333%;
+    }
+
+    .column.of-4 {
+      width: 25%;
+    }
+
+    ul ul ul ul {
+      list-style-type: disc !important;
+    }
+
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+
+    @media screen and (max-width:480px) {
+
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .columns {
+        width: 100% !important;
+      }
+
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+
+      .social-icon-column {
+        display: inline-block !important;
+      }
     }
   </style>
+  <style>
+    @media screen and (max-width:480px) {
+      table\0 {
+        width: 480px !important;
+      }
+    }
+  </style>
+  <!--user entered Head Start-->
+  <style>
+    @media screen and (max-device-width: 500px) {
+      h1 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+
+      .footer-logo {
+        width: 12% !important;
+        display: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      .help-icon {
+        width: 32% !important;
+        display: inline-block !important;
+      }
+
+      .socials-headline {
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+
+      .center-mobile {
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .footer-img-td {
+        display: none !important;
+      }
+    }
+
+    ul.socials,
+    ul.app-stores,
+    ul.ctas {
+      list-style-type: none;
+      display: block;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    ul.socials li {
+      margin-right: 1rem;
+      width: 24px;
+      display: inline-block;
+    }
+
+    ul.socials li:last-child {
+      margin-right: 0;
+    }
+
+    ul.app-stores,
+    ul.ctas {
+      display: block;
+      margin: 0 1rem;
+      width: calc(100% - 2rem);
+    }
+
+    ul.app-stores li img,
+    ul.ctas li img {
+      width: 100%;
+    }
+
+    .google-play {
+      width: 50.01%;
+      margin-left: 0;
+      margin-right: 0.05%;
+      display: inline-block;
+    }
+
+    .ios-app-store {
+      margin-left: 0;
+      margin-right: 0;
+      width: 44.81%;
+      display: inline-block;
+    }
+
+    .create-account {
+      width: 47.27%;
+      margin-left: 0;
+      margin-right: 1%;
+      display: inline-block;
+    }
+
+    .connect-order {
+      margin-left: 0;
+      margin-right: 0;
+      width: 47.27%;
+      display: inline-block;
+    }
+
+    a {
+      color: #006dff !important;
+    }
+
+    a>span>u {
+      text-decoration: underline !important;
+    }
+
+    .linq-ol {
+      margin: 1rem 1rem 1rem 0;
+      list-style-position: outside;
+    }
+
+    .linq-ol li {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+  </style>
+  <!--End Head user entered-->
 </head>
-<body>
-  <div class="content">
-    <h1>Linq is Temporarily Down</h1>
-    <p>
-      We apologize we are temporarily experiencing some issues with our hosting provider. We are working to resolve this
-      situation as quickly as possible.
-    </p>
-    <p>
-      Please check linq’s platform status on our <a href="https://status.linqapp.com">status page</a>.
-    </p>
-    <p>
-      ::CLOUDFLARE_ERROR_1000S_BOX::
-    </p>
-  </div>
+
+<body bgcolor="#EDF0FF">
+  <center class="wrapper" data-link-color="#006dff"
+    data-body-style="font-size:16px; font-family:arial,helvetica,sans-serif; color:#000f31; background-color:#EDF0FF;">
+    <div class="webkit">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%" class="wrapper" bgcolor="#EDF0FF">
+        <tr>
+          <td valign="top" bgcolor="#EDF0FF" width="100%">
+            <table width="100%" role="content-container" class="outer" align="center" cellpadding="0" cellspacing="0"
+              border="0">
+              <tr>
+                <td width="100%">
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td>
+                        <!--[if mso]>
+    <center>
+    <table><tr><td width="600">
+  <![endif]-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                          style="width:100%; max-width:600px;" align="center">
+                          <tr>
+                            <td role="modules-container"
+                              style="padding:0px 0px 32px 0px; color:#000f31; text-align:left;" bgcolor="#edf0ff"
+                              width="100%" align="left">
+                              <table class="module preheader preheader-hide" role="module" data-type="preheader"
+                                border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="display: none !important; mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0;">
+                                <tr>
+                                  <td role="module-content">
+                                    <p>New Contacts + Linq = Strong Connections</p>
+                                  </td>
+                                </tr>
+                              </table>
+                              <table class="wrapper" role="module" data-type="image" border="0" cellpadding="0"
+                                cellspacing="0" width="100%" style="table-layout: fixed;"
+                                data-muid="7228bb44-ceb2-4ac2-a01f-9bc1b3c64455">
+                                <tbody>
+                                  <tr>
+                                    <td style="font-size:6px; line-height:10px; padding:0px 0px 0px 0px;" valign="top"
+                                      align="center">
+                                      <img class="max-width" border="0"
+                                        style="display:block; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !important; width:100%; height:auto !important;"
+                                        width="600" alt="" data-proportionally-constrained="true" data-responsive="true"
+                                        src="http://cdn.mcauto-images-production.sendgrid.net/1a40873baf330fc2/5704d8e7-f8e1-45c9-bc68-54920bbe20b1/800x491.gif">
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="module" role="module" data-type="text" border="0" cellpadding="0"
+                                cellspacing="0" width="100%" style="table-layout: fixed;"
+                                data-muid="f393e097-3626-46dc-b9af-2faa90fa267e" data-mc-module-version="2019-10-22">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding:0px 16px 16px 16px; line-height:40px; text-align:inherit;"
+                                      height="100%" valign="top" bgcolor="" role="module-content">
+                                      <div>
+                                        <div style="font-family: inherit; text-align: left"><h2><strong>Linq is Temporarily Down</strong></h2></div>
+                                        <div style="font-family: inherit; text-align: left">Please check linq’s platform status on our <a href="https://status.linqapp.com">status page</a>.</div>
+                                        <div style="font-family: inherit; text-align: left">::CLOUDFLARE_ERROR_1000S_BOX::</div>
+
+                                        <div></div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              
+
+                        <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </center>
 </body>
+
 </html>
